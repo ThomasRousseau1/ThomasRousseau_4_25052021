@@ -828,6 +828,23 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+/*FOOTER*/ 
+.fa-twitter::before { 
+    font-size: 5rem;
+}
+
+.fa-facebook::before { 
+    font-size: 5rem;
+}
+
+.fa-dribbble::before { 
+    font-size: 5rem;
+}
+
+.fa-instagram::before { 
+    font-size: 5rem;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
