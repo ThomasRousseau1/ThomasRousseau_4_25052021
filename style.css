@@ -1046,6 +1046,8 @@ h4 {
     .img-responsive { 
         margin: auto;
         max-width: 50%;
+        width: 270px;
+        height: 270px;
     }
 }
 
