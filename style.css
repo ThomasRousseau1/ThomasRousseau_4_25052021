@@ -506,7 +506,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    height: 1.2rem;
+    height: 2rem;
+    margin-top: 0.3rem;
 }
 
 .scrollToTop {
@@ -651,10 +652,6 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #000!important;
-}
-
-.container {
-    max-width: 1000px;
 }
 
 .hero-bloc-text {
@@ -802,6 +799,22 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     opacity: 0.8;
+    cursor: pointer;
+}
+
+
+.btn-atomic-tangerine-form { 
+    background: #F3976C;
+    color: #000!important;
+    display: block;
+    margin: auto;
+    border-style: none;
+    border-radius: 1rem;
+}
+
+.btn-atomic-tangerine-form:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .ltc-white {
@@ -861,10 +874,23 @@ h4 {
     justify-content: space-evenly;
 }
 
+#message { 
+    height: 5rem;
+}
+
 @media screen and (max-width: 850px) { 
     .row-contact { 
         flex-direction: column;
     }
+
+    .form_1 {
+        align-items: center;
+    }
+
+    .form-control { 
+        max-width: 70%;
+    }
+
 }
 
 
