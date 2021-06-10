@@ -506,7 +506,6 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-    height: 2rem;
     margin-top: 0.3rem;
 }
 
@@ -810,6 +809,7 @@ h4 {
     margin: auto;
     border-style: none;
     border-radius: 1rem;
+    width: 50%;
 }
 
 .btn-atomic-tangerine-form:hover {
@@ -865,17 +865,12 @@ h4 {
 .form-group { 
     display: flex;
     flex-direction: column;
-    width: 30rem;
     margin-bottom: 1rem;
 }
 
 .row-contact { 
     display: flex;
     justify-content: space-evenly;
-}
-
-#message { 
-    height: 5rem;
 }
 
 @media screen and (max-width: 850px) { 
