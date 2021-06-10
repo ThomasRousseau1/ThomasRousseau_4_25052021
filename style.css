@@ -90,7 +90,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -779,7 +778,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff;
+    border-radius: 1rem;
+    background-color: rgb(243, 151, 108, 0.7);
 }
 
 .tc-black { 
